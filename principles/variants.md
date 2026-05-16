@@ -56,6 +56,12 @@ If the loop-extraction process can be systematized, value-cycle discovery become
 
 ---
 
+## SDIM connection (cross-reference)
+
+Motomura's inductive variant, when surfacing dense As-Is negative cycles, often requires **SDIM-type discontinuous breakthroughs** to convert to positive value cycles (see `principles/three-stages.md`). This is consistent with Motomura's broader **second-order cybernetics** framing: the negative cycle is overturned through goal-itself re-examination, not by gradual repair.
+
+Tsuchiya's variant, by contrast, can often proceed asymptotically (山頂を増やし峡谷を1つずつ埋める) without needing a single dramatic SDIM event.
+
 ## Coexistence and complement
 
 The two variants are **not in competition**; they often complement each other:

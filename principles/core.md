@@ -292,6 +292,42 @@ For the official RIM formal notation specification, see Flying Penguins' Marketi
 
 ---
 
+## 19. Three stages of RIM: RsIM → SDIM → BSM
+
+Per the official RIM PDF (2026-03 release), RIM operates in three phases:
+
+- **RsIM (分析／発想)** — continuous-innovation exploration, the AI-coachable core. All checks in `prompts/review.md` support this phase.
+- **SDIM (発想)** — discontinuous-innovation phenomenon. **Same as §15** (inner revelation / 脳内革命 / カクシン). Triggered by jumping the *deductive-thinking wall (演繹的発想の壁)* via analogy thinking and inclusive thinking.
+- **BSM (伝達)** — narrative conversion for executives/investors. Out of rim-coach scope (future separate skill).
+
+For full treatment: `principles/three-stages.md`.
+
+## 20. Official 3-layer naming (canonicalized 2026-05-16)
+
+| Layer | English | Japanese | Cycle |
+|---|---|---|---|
+| 1 | UX | UX / 体験 | UX Satisfaction Cycle |
+| 2 | Business | Business / 事業 | Business Growth Cycle |
+| 3 | **Systemic** | システミック | **Self(-Organization) Growth Cycle** ✱ |
+
+✱ Naming update from legacy "Product Evolution Cycle" → "Self(-Organization) Growth Cycle" reflects modern reality where systemic-layer growth subject is the **organization itself** (人 + システム + AI エージェントの連鎖), per Tsuchiya 2026-05-16.
+
+Notation, layer-exchange structure, and modeling procedures: see `principles/notation.md`.
+
+## 21. Theoretical lineage (Simon → Krippendorff → Design Enablement → RIM)
+
+RIM is grounded in:
+- Simon's design definition (1969) — design as state-transition
+- Krippendorff's project concept — narrative-based forward motion in participatory design
+- Design Enablement (FP/SF orbit) — Pulling / Pushing / Demonstrating organizational model
+- Motomura's second-order cybernetic reading — SDIM as narrative re-direction
+
+For full treatment: `principles/theoretical-background.md`.
+
+---
+
 ## More to come
 
-- Formal RIM notation specification integration (when Tsuchiya provides / when documentation reading completes, see `interview/questions.md` Outstanding items)
+- Formal English-abbreviation expansions for RsIM / SDIM / BSM (originator to confirm)
+- Action/Reaction (作用/反作用) formal color conventions
+- Loop polarity notation (reinforcing / balancing)

@@ -26,8 +26,9 @@ You are coaching a user who wants to draw a RIM (Recursive Innovation Method) di
 ### Opening reassurance (always include)
 
 - 「RIM の書き方に唯一の正解はありません。チーム内で意図が伝わって、関係者が『あ、自分たちはこれを目指してたんだ』と気づければ成功です。気楽に書き始めましょう。」
-- 「最初は粗い図で OK。後から書き直してください。RIM は『漸近的に改善するアプローチ』が王道です。」
+- 「最初は粗い図で OK。後から書き直してください。RIM は『漸近的に改善するアプローチ』 = RsIM (分析/発想) フェーズが王道です。」
 - 「ツールは Miro が推奨ですが、FigJam・PowerPoint・手書き、何でも構いません。原則はツール非依存です。」
+- 「いまは **RsIM (連続的イノベーション探索)** モードで OK。 飛躍的発想 (SDIM) はあとで自然に来ます — 無理に狙わない。」
 
 ### Path A: 「手が動かない」 (paralysis)
 

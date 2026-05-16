@@ -133,3 +133,15 @@ Reality:
 A specific form of the subdivision trap (§5b detail, but worth naming as a mindset issue): the practitioner writes the behavior chain but does not express **why each step causes the next**. The diagram becomes a sequence list, not a structural model.
 
 Coaching nudge: 「この行動の次の行動を引き起こしている『なぜ』は何ですか？」
+
+## 8. Notation-level anti-patterns (per official RIM spec)
+
+### 8a. Direct actor-to-actor connection
+RIM's canonical convention (`principles/notation.md`) is to express structure through **property-to-property propagation (S V O where S, O are properties)**, not actor-to-actor arrows. Actor-to-actor arrows are reserved for cases where property granularity isn't yet resolved.
+
+Coaching nudge: 「この矢印、アクター間を直接繋いでいますが、本来は『アクターの属性 → 相手アクターの属性』の作用として描く方が RIM 流です。属性は何ですか？」
+
+### 8b. Actions only, no propagations (アクション羅列のみ)
+The simple-type procedure (`notation.md`) accepts action nodes, but the diagram becomes a sequence-list if all nodes are actions and no continuous propagation (作用) is captured. Recall the methodology distinction: **アクション = intentional single act**, **作用 = automatic continuous propagation** ("water flowing downhill").
+
+Coaching nudge: 「アクションは書けていますが、その結果が自動的に伝播していく作用（『高低差で水が流れる』ような系統的影響）は描かれていますか？」

@@ -1,8 +1,19 @@
 # rim-coach
 
-> Open observation prompts and coaching scaffolds for **RIM (Recursive Innovation Method)** — a structural design thinking methodology by Akitsugu Tsuchiya / Flying Penguins.
+> **Open observation prompts and coaching scaffolds for RIM (Recursive Innovation Method / 再帰的イノベーション 企画方式)** — a structural-design planning method by Akitsugu Tsuchiya / Flying Penguins.
 
-**Status: pre-v1.** Content is being developed via interviews with the originator. Use at your own discretion.
+## ⚠️ Status: Work-in-Progress (WIP / 未完成)
+
+This repository is an **ongoing methodology elicitation** — not a finished canonical reference.
+
+- **Methodology definitions are still being articulated and refined** by the originator. Concepts, naming, and notation in this repo reflect current best understanding (as of 2026-05) and **will continue to update**.
+- The full English-abbreviation expansions for the 3 stages (**RsIM / SDIM / BSM**) are not yet formally published.
+- Some sections explicitly note "TBD" or "judgment pending."
+- The official RIM specification owners are Flying Penguins; this repo is an open coaching layer aligned with that specification.
+
+**Intended audience**: collaborators, research partners, design-method practitioners actively engaging with the methodology. Not yet positioned as a self-serve introduction for first-time learners.
+
+If you want canonical methodology authority, refer to Flying Penguins directly. This repo aims to *coach the practice*, not to *define the method*.
 
 ## What is RIM?
 
@@ -23,12 +34,15 @@ Background reading:
 
 ### Principles (the methodology, distilled)
 - **`principles/core.md`** — Foundational principles + the RIM core working loop + the decisive "inner revelation" success criterion (§15)
+- **`principles/three-stages.md`** — RsIM (分析/発想) → SDIM (発想/飛躍) → BSM (伝達) three-stage structure
+- **`principles/notation.md`** — Official notation: actor / property / arc; S have O / S V O; 標準型 / シンプル型 procedures
 - **`principles/variants.md`** — Tsuchiya RIM (mountain + canyon) vs Motomura inductive (negative-cycle); coexistence and choice
 - **`principles/negative-loop-response.md`** — Risk-management-style response patterns + Othello flip-search + canyon discovery
 - **`principles/granularity.md`** — Granularity = abstraction level for competitive differentiation; industry-peer-discrimination test, subdivision-trap, mixed-granularity diagnostics
 - **`principles/layout.md`** — Layout principles: XY semantic conventions, loop visibility (thick-warm vs thin-cool), shape flexibility, density-by-maturity, symmetry, fonts, mille-feuille AI-human pattern applied to layout
 - **`principles/quality-check.md`** — Pattern recognition + 5 plausibility-check techniques + mille-feuille flow + expert-consultation discipline
 - **`principles/anti-patterns.md`** — Common failure modes (Business / UX / Systemic / Process / Loop-structure / AI-coaching meta / Practitioner mindset traps)
+- **`principles/theoretical-background.md`** — Simon → Krippendorff → Design Enablement → RIM lineage (open theoretical bridge, still under collaborative development)
 
 ### Process documentation
 - **`interview/questions.md`** — The questions used to derive these principles, with status tracking and the interview discipline

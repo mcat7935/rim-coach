@@ -1,5 +1,7 @@
 # Interview Questions Used to Develop rim-coach Prompts
 
+> ⚠️ **Status (2026-05): Ongoing methodology elicitation.** This is a working document. Methodology definitions are being articulated and refined by the originator; this file reflects current best understanding and will continue to update.
+
 These are the questions used to elicit RIM observation criteria from the methodology originator (Akitsugu Tsuchiya). Documented here so that:
 
 - Contributors can apply the same framework when adding new principles
@@ -63,6 +65,27 @@ A few voice-input words from the 2026-05-16 interview have ambiguous Japanese tr
 
 - ~~**「ミンシン」** (Q7-d about actor decomposition)~~ → confirmed as **MECE** (Mutually Exclusive, Collectively Exhaustive), 2026-05-16. Reflected in `core.md` §16, `granularity.md` Layer A, `review.md` Check K-c.
 - ~~**「核のシーン」** (Q10 about the kind of revolution)~~ → confirmed as **革命のシーン** (a literal social/political revolution scene — voice mis-recognition of 革 as 核), 2026-05-16. Refined to: "not a wholesale revolution, but a reform-meaning revolution" in `core.md` §15.
+
+## Post-interview integrations (2026-05-16+)
+
+After Q1-Q10 first-pass completion, additional canonical material was integrated:
+
+- **Official 3-stage structure (RsIM / SDIM / BSM)** — extracted from `構造で_ビジネスを_変革する_再帰的イノベーションメソッド (3).pdf` (2026-03 release). Reflected in `core.md` §19, `three-stages.md`.
+- **Official 3-layer naming (UX / Business / Systemic) + Self Growth Cycle re-naming** — Tsuchiya decision 2026-05-16. Legacy "Product Evolution Cycle" → "Self(-Organization) Growth Cycle." Reflected in `core.md` §20, `notation.md`.
+- **Official notation rules** — extracted from `RIM記述ルール定義.pptx` (2026-03 release). Actor have Property / Property V Property / 標準型 vs シンプル型 procedures. Reflected in `notation.md`.
+- **Theoretical lineage (Simon → Krippendorff → Design Enablement → RIM)** — from `project_and_moving_forward_RIM_preamble.md`. Reflected in `theoretical-background.md`.
+- **SDIM ↔ Motomura's second-order cybernetics ↔ Q10 inner revelation** — three-way concept identification confirmed 2026-05-16. Reflected in `three-stages.md`.
+- **Audience: 共同研究者・パートナー** (research partners / collaborators) — Tsuchiya decision 2026-05-16. Reflected in README WIP section.
+- **Canonical tool: Miro** — Tsuchiya decision 2026-05-16 (designer audience already uses it). Reflected in README, `layout.md`, `starter.md`.
+- **BSM = separate future skill** (`rim-bsm`) — not in rim-coach core scope. Tsuchiya decision 2026-05-16.
+
+## Outstanding for future iterations
+
+- Formal English-abbreviation expansions for **RsIM / SDIM / BSM** (originator to confirm; currently used as abbreviations only)
+- Formal **作用 / 反作用 color or line-style convention** (referenced in interview but not yet documented in public PPTX)
+- **Loop polarity notation** (reinforcing / balancing loops in CLD tradition) — not yet adopted by RIM
+- **Action/Reaction arrow semantics maturity check** — placeholder for future criteria
+- **イベント発表スライド.pdf** content (partial garbling on PDF extraction) — request originator share .pptx/.gslides for clean extraction
 
 ## Bonus: the Kakushin trilingual aphorism
 

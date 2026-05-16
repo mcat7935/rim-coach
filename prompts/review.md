@@ -216,6 +216,17 @@ Should RIM be used here at all? The criterion is **purpose**, not subject matter
 - 「美的印象・look and feel → 言語＋意匠直結を推奨」
 - 「ブランドガイドラインのような **運用ルール** → 階層構造（RIM 的）で OK」
 
+### Check 0. Stage recognition (RsIM / SDIM / BSM) — pre-check
+
+Before any other check, recognize where the user is in the RIM process:
+
+- 「いま **RsIM (分析/発想)** 段階ですか？ それともすでに **SDIM (飛躍的発想)** に向けて壁に当たっていますか？」
+- 「もし **BSM (伝達)** 段階（経営層向けナラティブ化）なら、本 review プロンプトのスコープ外です。将来の `rim-bsm` スキルが扱います。」
+- RsIM 段階なら → Check A〜N を進める
+- SDIM 壁に当たっている兆候があれば → **アナロジー思考 / インクルーシブ思考** を促す問いを返す（判定はせず、手段を提示）
+
+(参照: `principles/three-stages.md`)
+
 ### Check N. Layout (レイアウト)
 
 Layout is the human-judgment-heavy area. AI's role: **surface specific concerns, never auto-relayout** the user's diagram. See `principles/layout.md` for the full discipline.
