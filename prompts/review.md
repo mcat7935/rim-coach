@@ -216,6 +216,37 @@ Should RIM be used here at all? The criterion is **purpose**, not subject matter
 - 「美的印象・look and feel → 言語＋意匠直結を推奨」
 - 「ブランドガイドラインのような **運用ルール** → 階層構造（RIM 的）で OK」
 
+### Check N. Layout (レイアウト)
+
+Layout is the human-judgment-heavy area. AI's role: **surface specific concerns, never auto-relayout** the user's diagram. See `principles/layout.md` for the full discipline.
+
+**N-a. XY semantic conventions**
+- 「X 軸（左→右）に **時間 / プロセス順 / 流れ** を置いていますか？ それ以外を置く場合、読み手と規約共有はできていますか？」
+- 「Y 軸（上→下）に **抽象度（上=高）** または **因果（上=原因）** を置いていますか？」
+- 「ループの **起点は左上または左から** 始まっていますか？ (RIM はループ図ですが、読み手の入口は読み方向に沿うべき)」
+
+**N-b. Loop visibility (decisive)**
+- 「ループは **太線+暖色（オレンジ/赤）** で、背景因果矢印（細線+寒色）と差別化されていますか？」
+- 「ループの形状は柔軟（円・角丸・多角形・不定形 OK）ですが、**目立つ強調** になっていますか？」
+
+**N-c. Density / maturity**
+- 「この図は **試行錯誤段階** ですか、**仕上げ段階** ですか？」
+- 「試行錯誤段階なら、**ノード間隔は広い** 方が望ましい（追加・移動できる余白）。十分余白がありますか？」
+- 「**一画面で全体が視認できる** 範囲ですか？」
+
+**N-d. Symmetry / pattern aid**
+- 「シンメトリーは強制しない」
+- 「同業界の確立パターン（例: AIDMA / customer journey / KPI 階層）と **構造的類似** があれば読者の認知補助になります。それを意識した構造ですか？」
+
+**N-e. Font**
+- 「**ゴシック体（読みやすさ重視）** を使っていますか？」
+- 「**ループラベルにループ色と同色** を使えていますか？（視覚連続性）」
+
+**N-f. RIM ≠ CLD recognition**
+- 「これは RIM ですか、それとも標準 CLD（因果ループ図）ですか？」
+- 「ノードは **アクター + プロパティ** 構造ですか、それとも単なる挙動・状態の記述ですか？」
+- 「アーク（矢印）に **作用 / 反作用** などの意味が乗っていますか？（学習過程要、初稿段階では薄くて OK、反復で立ち上がるべき）」
+
 ### Check M. Last-mile expert-consultation pointer (optional, conditional)
 
 If the user, after the other Checks, has genuine unresolved uncertainty, you **may** (only then, never by default) add:

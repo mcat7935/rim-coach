@@ -26,6 +26,7 @@ Background reading:
 - **`principles/variants.md`** — Tsuchiya RIM (mountain + canyon) vs Motomura inductive (negative-cycle); coexistence and choice
 - **`principles/negative-loop-response.md`** — Risk-management-style response patterns + Othello flip-search + canyon discovery
 - **`principles/granularity.md`** — Granularity = abstraction level for competitive differentiation; industry-peer-discrimination test, subdivision-trap, mixed-granularity diagnostics
+- **`principles/layout.md`** — Layout principles: XY semantic conventions, loop visibility (thick-warm vs thin-cool), shape flexibility, density-by-maturity, symmetry, fonts, mille-feuille AI-human pattern applied to layout
 - **`principles/quality-check.md`** — Pattern recognition + 5 plausibility-check techniques + mille-feuille flow + expert-consultation discipline
 - **`principles/anti-patterns.md`** — Common failure modes (Business / UX / Systemic / Process / Loop-structure / AI-coaching meta / Practitioner mindset traps)
 

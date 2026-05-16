@@ -269,9 +269,29 @@ Structural design ≠ all of design. Brand identity (aesthetic) is better handle
 
 ---
 
-## More to come (interview in progress)
+## 18. Layout — summary (full treatment in `layout.md`)
 
-Still pending:
+Layout is a mille-feuille domain (AI supports structure visualization; human owns position-bearing decisions). Quick conventions:
 
-- **Q6 Layout judgment** (visual hierarchy, center-of-perspective transmission, tool selection, XY-coordinate aesthetics, loop-shape perceptibility) — Tsuchiya has stated this is the hardest question to elicit; deferred for a dedicated session
-- Minor transcription confirmations from interview 2026-05-16 (a few voice-input ambiguities to confirm with the originator)
+| Dimension | Convention |
+|---|---|
+| **X axis** | Time / flow (left → right) |
+| **Y axis** | Up = higher abstraction or cause-side |
+| **Loop visibility** | Thick + warm color (background = thin + cool) |
+| **Loop shape** | Flexible (prominence > shape) |
+| **Density** | Sparse during iteration, tighter at finishing, always one-screen |
+| **Symmetry** | Not required; industry-pattern resemblance aids comprehension |
+| **Font** | Gothic / sans-serif; loop labels match loop color |
+| **Starting position of loop** | Top-left or left (follow reading direction even for non-time content) |
+
+**Discipline**: AI must not auto-relayout. Position is human territory; arrow semantics is learned skill.
+
+For full Q6 treatment: see `principles/layout.md`.
+
+For the official RIM formal notation specification, see Flying Penguins' Marketing Contents shared drive (path noted in `interview/questions.md`).
+
+---
+
+## More to come
+
+- Formal RIM notation specification integration (when Tsuchiya provides / when documentation reading completes, see `interview/questions.md` Outstanding items)
