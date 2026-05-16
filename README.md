@@ -17,11 +17,22 @@ Background reading:
 
 ## What this repository provides
 
+### Prompts (copy-paste into your LLM)
 - **`prompts/review.md`** — Observation prompts for reviewing an existing RIM diagram
 - **`prompts/starter.md`** — Coaching prompts for when you're stuck starting a RIM diagram
-- **`principles/core.md`** — Distilled core principles (from public material)
-- **`principles/anti-patterns.md`** — Common failure modes to watch for
-- **`examples/`** — Worked examples (good diagrams, common mistakes)
+
+### Principles (the methodology, distilled)
+- **`principles/core.md`** — Foundational principles + the RIM core working loop
+- **`principles/variants.md`** — Tsuchiya RIM (mountain + canyon) vs Motomura inductive (negative-cycle); coexistence and choice
+- **`principles/negative-loop-response.md`** — Risk-management-style response patterns + Othello flip-search + canyon discovery
+- **`principles/quality-check.md`** — Pattern recognition + 5 plausibility-check techniques + mille-feuille flow + expert-consultation discipline
+- **`principles/anti-patterns.md`** — Common failure modes (Business / UX / Systemic / Process / Loop-structure / AI-coaching meta)
+
+### Process documentation
+- **`interview/questions.md`** — The questions used to derive these principles, with status tracking and the interview discipline
+
+### Examples (placeholder)
+- **`examples/`** — Worked examples (good diagrams, common mistakes) — to be added
 
 ## Design philosophy: hints, not answers
 

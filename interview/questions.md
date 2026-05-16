@@ -47,15 +47,14 @@ Example from interview 2026-05-16:
 
 | Question | Status | Reflected in |
 |---|---|---|
-| 1 (priority) + 1a/1b/1c | ✅ 2026-05-16 | `principles/core.md` §6–9, `prompts/review.md` Step 1–3, `principles/anti-patterns.md` §1–3 |
-| 2 (circulation) | ✅ 2026-05-16 (both false-negative via autonomous agents and false-positive via sentence-coherence) | `prompts/review.md` Step 5, `principles/quality-check.md` |
-| 3 (causal) | ✅ 2026-05-16 (same test as Q2 false-positive: Actor-Arrow-Property sentence coherence) | `prompts/review.md` Step 5a |
-| 4 (integration) | partially via Q1 follow-ups | `principles/core.md` §6, `prompts/review.md` Step 4 |
-| 5 (innovation pattern) | pending | — |
+| 1 (priority) + 1a/1b/1c | ✅ 2026-05-16 | `core.md` §6–9, `anti-patterns.md` §1–3, `review.md` Checks B/C/D |
+| 2 (circulation) | ✅ 2026-05-16 (both false-negative via autonomous agents and false-positive via sentence-coherence) | `review.md` Check G, `quality-check.md`, `anti-patterns.md` §5c/5d |
+| 3 (causal) | ✅ 2026-05-16 (same test as Q2 false-positive) | `review.md` Check G-a |
+| 4 + 5 (integration + innovation pattern) | ✅ 2026-05-16 — Q4 and Q5 unified as one topic: mountain-range + canyon + variants + negative-loop response. Includes Tsuchiya RIM, Motomura variant, era criterion, Othello-endgame anti-pattern, all-positive anti-pattern, partial-knowledge accommodation, last-mile leap as human's territory | `core.md` §10–14, `variants.md`, `negative-loop-response.md`, `quality-check.md`, `anti-patterns.md` §4–5, `review.md` Checks A/E/F/H/I |
 | 6 (layout) | pending | — |
 | 7 (granularity) | pending | — |
-| 8 (anti-patterns) | partially via Q1 follow-ups; expand as remaining Qs progress | `principles/anti-patterns.md` |
-| 9 (applicability) | covered by public material | `principles/core.md` §5 |
+| 8 (anti-patterns) | substantial via Q1/Q2/Q4–5 follow-ups; expand as remaining Qs progress | `anti-patterns.md` |
+| 9 (applicability) | covered by public material | `core.md` §5 |
 | 10 (core / キモ) | pending | — |
 
 ## Derivative insights (from interviewer's questions back to the originator)
@@ -65,3 +64,16 @@ Mid-interview the originator asked a methodologically generative question:
 > 2026-05-16: 「こじつけストーリーと蓋然性のあるストーリーを AI 的に見分ける方法論はあるか？」
 
 The discussion produced the five plausibility-check techniques and the mille-feuille flow now codified in `principles/quality-check.md`. Future interviews may include this kind of **reverse-question** pattern, where the originator stress-tests AI implementability of their own methodology in real time.
+
+## Contributors referenced
+
+- **Akitsugu Tsuchiya** (Flying Penguins, CEO) — methodology originator
+- **Akira Motomura** (Flying Penguins) — contributor; developed the inductive negative-cycle variant documented in `principles/variants.md` §2, and the procedural systematization aspiration
+
+## Source material consulted before interview
+
+- [「構造で世界は変えられる」 note.com](https://note.com/spice_factory/n/n42dfe43e2efb) — Tsuchiya interview by Spice Factory
+- [RIM 公開勉強会 announcement (spice-factory)](https://spice-factory.co.jp/news/20158/)
+- [コンセプト作りとプロト検証は同時並行 (popinsight)](https://popinsight.jp/blog/?p=89788)
+- [Flying Penguins 公式](https://penguins.jp/)
+- [新規事業開発、最初にまずここで躓く！土屋晃胤氏編 (unicornfarm)](https://unicornfarm.jp/past-seminar-2566)

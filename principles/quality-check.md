@@ -1,17 +1,38 @@
-# Quality Check: Plausibility of Causal Chains
+# Quality Check: Plausibility and Pattern Recognition
 
-When a RIM diagram has expressed causation (passing the inclusion check in `prompts/review.md`), the next question is whether the chain is **plausible** or a **forced / contrived chain** — the *"風が吹けば桶屋が儲かる"* ("the wind blows → coopers profit") archetype that consultants are often criticized for.
+When a RIM diagram has expressed causation (passing inclusion checks), two further questions arise:
 
-This is intrinsically a **human judgment**. The AI's role is to surface multiple angles for evaluation, **not to declare verdicts**.
+1. **Which RIM variant / loop pattern is this?** (recognition)
+2. **Is each causal chain plausible, or a forced / contrived chain?** (plausibility)
 
-## Operational sequence: mille-feuille flow
+Both are **human judgments**. The AI's role is to surface multiple angles, not declare verdicts.
+
+---
+
+## Pattern recognition: identify the loop type
+
+Before running plausibility checks, identify which pattern the diagram represents:
+
+| Pattern | Description | Typical response |
+|---|---|---|
+| **All-positive (positive³)** | No negative element anywhere | Rare in reality. Prompt: where is the friction? If genuinely none, RIM has no work here (`anti-patterns.md` §5b) |
+| **Tsuchiya RIM: positive² + negative** | Mountain range with one missing canyon | Healthy. Focus on canyon discovery + asymptotic intervention (`variants.md` §1, `negative-loop-response.md`) |
+| **Motomura inductive: all-negative loop** | Negative cycle surfaced from grounded research | Valid variant. Apply Othello flip-search + response patterns (`variants.md` §2, `negative-loop-response.md`) |
+| **Othello endgame: too-many-negatives** | Negatives so dense that only a heroic flip can rescue | Warning. Flag, suggest restructuring (`anti-patterns.md` §5a) |
+| **Mixed** | Combination of the above | Acknowledge complexity, identify which sub-patterns dominate |
+
+Different patterns call for different next moves. Don't assume one variant is always correct.
+
+---
+
+## Plausibility check: operational sequence (mille-feuille flow)
 
 ```
-1. [AI]  Identify candidate loops in the diagram (multiple possibilities)
-2. [Human] Pick which loop to check
-3. [AI]  Run plausibility checks on the selected loop (5 techniques below)
+1. [AI]  Identify candidate loops or causal chains in the diagram
+2. [Human] Pick which loop / chain to examine
+3. [AI]  Run plausibility checks on the selected target (5 techniques below)
 4. [Human] Integrate the hints and make the last-mile judgment
-   ↑ AI may add a non-pushy expert-consultation pointer here
+   ↑ AI may add a non-pushy expert-consultation pointer here, if uncertainty is genuine
 ```
 
 This honors the **mille-feuille design philosophy**: thin alternating layers of human and AI work, with the AI providing hints (never answers) at each layer.
@@ -35,9 +56,14 @@ List implicit conditions necessary for A → B to hold. The user judges whether 
 ### 5. Adversarial steel-man (批判者の代弁)
 Surface the strongest reasonable critique of the chain. What would a skeptical expert say?
 
+### Note on "forced" chains (風が吹けば桶屋が儲かる)
+A chain may pass sentence-level coherence (Actor-Arrow-Property reads as a sentence) but still be a **forced** / **deductive overreach** — the "wind blows → cooper profits" archetype consultants are criticized for. The plausibility check is what surfaces this. Even forced chains pass the **inclusion** gate (`prompts/review.md` Step 5a), so plausibility must be assessed separately.
+
+---
+
 ## Discipline for last-mile uncertainty: the honest expert-consultation pointer
 
-When plausibility checks reveal **genuine** uncertainty — meaning the user can articulate the concerns but cannot resolve them — the AI **may** add an expert-consultation pointer.
+When plausibility checks reveal **genuine** uncertainty — the user can articulate the concerns but cannot resolve them — the AI **may** add an expert-consultation pointer.
 
 This is framed as **honest acknowledgment of automated review's limits**, not as a sales push.
 
@@ -50,11 +76,13 @@ This is framed as **honest acknowledgment of automated review's limits**, not as
 - **Trigger only at genuine last-mile uncertainty** — not as default closing line
 - The originator's name is listed as **one** legitimate expert source, not the only one
 
-This posture matches the user's intent (Akitsugu Tsuchiya, 2026-05-16):
+This posture matches the originator's intent (Akitsugu Tsuchiya, 2026-05-16):
 
 > "あんまり押し付け感が強くなく営業的観点でオープンにしたスキルとかメソッドながらも聴いてもらうというのは、正直さという意味でもいいのではないでしょうか。"
 
 OSS skill openness and honest expert availability are not in tension; they reinforce each other when handled with this discipline.
+
+---
 
 ## What this is NOT
 
@@ -63,4 +91,4 @@ OSS skill openness and honest expert availability are not in tension; they reinf
 - Not a way to obtain certainty about plausibility (that doesn't exist)
 - Not a vehicle to push paid consultation
 
-It is a structured way to **dimensionally surface what's known, unknown, and contested** about each causal claim, so the human can decide with more eyes open.
+It is a structured way to **dimensionally surface what's known, unknown, and contested** about each causal claim — so the human can decide with more eyes open.

@@ -1,6 +1,8 @@
 # Core Principles of RIM
 
-These principles are distilled from publicly available material and ongoing interviews with the methodology originator (Akitsugu Tsuchiya / Flying Penguins).
+These principles are distilled from publicly available material and ongoing interviews with the methodology originator (Akitsugu Tsuchiya / Flying Penguins) and contributors (Akira Motomura).
+
+---
 
 ## 1. Structure has circulation (循環)
 
@@ -34,9 +36,11 @@ Topics requiring interpretive room — values, culture, MVV (Mission/Vision/Valu
 
 > "価値観や文化のように解釈の余白が必要な領域、例えばMVVは言葉の方が適しています"
 
+---
+
 ## 6. Review structure: 3 perspectives, with Systemic decomposed
 
-When reviewing a RIM diagram, work through three perspectives **in this order**:
+When reviewing a RIM diagram, work through three perspectives. **Order is not fixed** (see §11); the review prioritizes coverage and quality over sequence.
 
 1. **Business (事業)** — does the author understand the *essence* of the business?
 2. **UX (体験)** — is the *full psychological journey* captured (pre-use, during-use, post-use recall)?
@@ -84,13 +88,108 @@ This preserves the human's ownership of the "last mile" of integrative judgment,
 > "AI 自身がそれが抽象的か具体的すぎるかみたいなことを判断してもらうというよりも、ユーザーに対して『あなたはもう少しそれを抽象度を上げて、かつ自分のところのビジネスにとって本質的かどうか』みたいなことを質問してもらう、っていうのは AI コーチングとして非常に有用だと思いました。"
 > — Akitsugu Tsuchiya, interview 2026-05-16
 
+---
+
+## 10. Core working loop of RIM
+
+This is the central operational loop of RIM:
+
+```
+[Initial model at some abstraction level]
+   ↓
+[Detect a node/arc whose plausibility (蓋然性) feels suspicious]
+   ↓
+[Switch perspective: describe a separate model from another view
+ (Business / UX / Systemic)]
+   ↓
+[Integrate the new model with the original → produce a Value-Cycle Model
+ (バリューサイクルモデル) where the value chain is now visible]
+   ↓ loop (asymptotic / continuous improvement)
+[When the integrated value cycle does NOT reach the business goal or
+ social goal]
+   ↓
+[Human: make a leap-of-faith insight = creative, innovative last-mile work]
+```
+
+This loop is what Tsuchiya calls the **asymptotic / continuous-improvement approach** of RIM and "what I most want people to learn."
+
+> "視点を切り替えてビジネスだったりシステミックだったりっていう側面でより別のモデルを記述する、そしてその記述したモデルをともと(元)のモデルを統合してバリューサイクルが明らかになったバリューサイクルモデルを書く、っていうことそのものが、RIM の特に私が漸近的とか持続的改善アプローチとしてみんなに勉強して欲しいと思っているものです。"
+> — Akitsugu Tsuchiya, interview 2026-05-16
+
+## 11. The starting point is not important
+
+Common assumption: "start with X first" (often UX research, in design-thinking orthodoxy). RIM rejects this:
+
+- The **starting point is not important** for RIM
+- What matters is detecting plausibility-suspicious nodes/arcs and switching perspective
+- A common-sense default is **Business first** (because business structure naturally raises UX questions: "do users really take that behavior?")
+- BUT: when the UX team is strong, starting from a UX journey model is fine; when Systemic concerns surface, deepen there
+- Variation by **problem abstraction level** is normal
+
+Anti-pattern to avoid: doing UX research *first*, ungrounded in a business question. Tsuchiya:
+
+> "本来論的には、そこ(課題)が見えてからユーザーリサーチやユーザーインタビューは私はするべきだと思っています。"
+> — Akitsugu Tsuchiya, interview 2026-05-16
+
+## 12. Last-mile leap is the human's creative territory
+
+After all the structural work (loop in §10) is done, if the integrated value cycle still does not reach the business or social goal:
+
+- The next step requires a **leap-of-faith insight** that the integrated structure has informed but does not produce
+- This leap is **what is left to humans** as last-mile creative / innovative work
+- AI must **not** attempt to produce this leap. AI may surface concerns, distill structure, decompose plausibility — but the leap itself belongs to the human
+
+> "これが終わった上で、実際のビジネス目標とか社会のゴールというところに到達しない時に、ここまでの議論を踏まえて飛躍的発想をする、ということが最後人間に残されたラストワンマイル/クリエイティブ/イノベーティブな部分だと私は思ってます。"
+> — Akitsugu Tsuchiya, interview 2026-05-16
+
+This is the **load-bearing discipline** for any RIM-coaching AI: support the structural work, never substitute the human leap.
+
+## 13. Canyon (峡谷) — the precise shape of "negative" in the mountain-range model
+
+The "negative" element in `positive → positive → negative` is not just any problem; it is **structurally a canyon (峡谷)** — a specific missing connection between two peaks (strengths) that should be connected.
+
+Mountain-range image:
+
+```
+Peak A (strength 1) ── [?] ── Peak B (strength 2)
+                       ↑
+                    Canyon = the link that would close
+                             a positive value loop if filled
+                           = the asymptotic-innovation target
+```
+
+Innovation = finding the canyon between two valuable peaks that, once bridged, creates the next value loop.
+
+> "山頂と山頂を繋ぐような連峰の中で、実際にはここをもう一つ繋ぎたいんだけどネガティブ=谷になっている部分を見つけるというのが、イノベーションの源泉、もしくは本質的なところの源泉だと思っています。"
+> "山と山（成功しているポイント＋それが生んだ効果＋そこへのアプローチ）を描き、それを（山脈）ループにするのに、1つ欠落している負のポイント（峡谷）を見つける方が、漸近的イノベーションで考えやすいのかな、と思っています。"
+> — Akitsugu Tsuchiya, interview 2026-05-16 / Slack 2026-05-07
+
+See `principles/negative-loop-response.md` for how to find and respond to canyons.
+
+## 14. "現代において" — the integrated-business-era criterion
+
+When validating premises ("does this node/arrow hold in the current context?"), the criterion is **era-fit**, not a checklist.
+
+Three eras:
+
+| Era | What single-perspective alone could win | Modern judgment |
+|---|---|---|
+| **1970–80s** | Technical innovation alone (e.g., "submitting data" was itself innovation) | Insufficient today |
+| **iPhone era** | UX alone (UX-driven differentiation was enough) | Insufficient today |
+| **2020s onward** | None — business has become **"総合格闘技 (Mixed Martial Arts)"** requiring UX × Business × Systemic together (e.g., Uber: UX × revenue mechanism × driver platform) | Required |
+
+The question: **"Is this premise from a single-perspective era, or does it hold up in the 2020s integrated-business context?"** Modern conditions (AI capability, 1:100 supply/demand gaps, role redistribution) often invalidate yesterday's assumptions.
+
+> "1970年とか80年代であれば技術論だけで世の中が良くなっていたと思ってます。... iPhone の登場とかでユーザー体験が重視されて、ユーザー体験を考えられるだけで勝負できていた。それに対して、AI の登場とか関係なく 2020 年代ぐらいに入ってから、かなりビジネスというのが総合格闘技感が高まったと思っています。例えば Uber みたいなものが、UX で戦いながらも、それをちゃんとお金に還元する仕組みまでセットにしたっていう、そういう部分が必要になってきたという認識です。"
+> — Akitsugu Tsuchiya, interview 2026-05-16
+
+---
+
 ## More to come (interview in progress)
 
-Still being developed via interview:
+Still pending:
 
-- Circulation detection criteria
-- Causal-relationship vs. mere-arrow distinction
-- "Positive → Positive → Negative" innovation pattern detection
+- "Positive → positive → negative" innovation pattern: more concrete examples and edge cases
 - Layout judgment (visual hierarchy, center-of-perspective transmission)
 - Granularity calibration (too coarse / too fine / mixed)
-- "Core (キモ)" presence judgment
+- "Core (キモ)" presence judgment beyond what is in §3
