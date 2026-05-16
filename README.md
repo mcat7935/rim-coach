@@ -42,9 +42,20 @@ This is **NOT a fully-automated diagram generator**. RIM diagrams require human 
 
 These prompts are designed as **hints, not answers**: they nudge your thinking without taking the decision from you. AI handles INPUT organization and OUTPUT checking; humans own the integrative value-cycle discovery in the middle.
 
+## Recommended tool: Miro
+
+We recommend **[Miro](https://miro.com/)** as the canonical board tool for RIM diagrams. Reasons:
+
+- Designers (RIM's primary audience) already use it widely
+- XY positioning carries semantic meaning in RIM (mountain-range + canyon model); Miro's explicit layout primitives support this precisely
+- The methodology originator's own `rim-think` / `rim-diagram` workflows route through Miro via MCP
+- Round-trip with AI (AI generates DSL → human edits positions → AI supplements) works cleanly in Miro
+
+FigJam, draw.io, PowerPoint, or hand-drawn whiteboards can also work — the principles in this repository are tool-agnostic — but for new users we suggest starting with Miro for the smoothest path.
+
 ## Usage
 
-Paste the relevant prompt file into your LLM of choice (Claude, GPT, Gemini, etc.), along with your RIM diagram (text description, image, or board URL where supported).
+Paste the relevant prompt file into your LLM of choice (Claude, GPT, Gemini, etc.), along with your RIM diagram (text description, image, or Miro board URL).
 
 Example:
 
@@ -53,7 +64,7 @@ Example:
 
 ---
 
-Here is my RIM diagram: <description or image>
+Here is my RIM diagram: <description, image, or Miro board URL>
 ```
 
 ## Contributing

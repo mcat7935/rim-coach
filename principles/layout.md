@@ -119,13 +119,21 @@ This is consistent with:
 
 ---
 
-## Tool considerations (as of 2026-05)
+## Tool selection: Miro recommended (as of 2026-05)
 
-For diagrams where XY positioning carries semantic meaning (Tsuchiya-style mountain-range + canyon, or Motomura-style negative-loop with prominent loop arrows), **Miro is currently better suited** than FigJam, because Miro MCP exposes explicit layout primitives (`layout_create`, `layout_read`, `diagram_create` with DSL including positions) for round-tripping with AI.
+**Recommended canonical tool: [Miro](https://miro.com/)**
 
-For position-less structural notation (Mermaid-style enumeration), either tool works; this is the AI-strong domain in the mille-feuille flow.
+Reasons:
+- **Designer-friendly**: Miro has wide adoption in design communities, which is RIM's primary audience
+- **XY semantic preservation**: For Tsuchiya-style mountain-range + canyon (or Motomura-style negative-loop with prominent loop arrows), position carries meaning. Miro MCP exposes explicit layout primitives (`layout_create`, `layout_read`, `diagram_create` with DSL including positions) for AI round-tripping
+- **Continuity with originator workflow**: Tsuchiya's `rim-think` (RIM hearing → YAML) and `rim-diagram` (YAML → board) skills route via Miro MCP
 
-The **official RIM notation specification** lives in Flying Penguins' Marketing Contents shared drive (under `社外発信コンテンツ\RIM`). This file documents the **layout principles**; the **formal notation spec** lives in that documentation set and should be consulted directly for tool-agnostic rules.
+**Other tools also work** (the methodology is tool-agnostic):
+- **FigJam**: usable but XY position control is currently weaker via MCP
+- **draw.io / PowerPoint / hand-drawn whiteboards**: principles apply; manual layout responsibility
+- **Mermaid-style position-less notation**: best for the AI-side of the mille-feuille flow (enumeration / structure-only), not for canonical RIM Value Cycle output
+
+The **official RIM notation specification** lives in Flying Penguins' Marketing Contents shared drive (under `社外発信コンテンツ\RIM`). The principles in this file are layout-focused; for the formal notation spec, consult that documentation set directly.
 
 ---
 
