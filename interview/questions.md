@@ -47,13 +47,21 @@ Example from interview 2026-05-16:
 
 | Question | Status | Reflected in |
 |---|---|---|
-| 1 (priority) + 1a/1b/1c | ✅ 2026-05-16 | `principles/core.md` §6–9, `prompts/review.md`, `principles/anti-patterns.md` §1–3 |
-| 2 (circulation) | pending | — |
-| 3 (causal) | pending | — |
-| 4 (integration) | partially via Q1 follow-ups | `principles/core.md` §6 |
+| 1 (priority) + 1a/1b/1c | ✅ 2026-05-16 | `principles/core.md` §6–9, `prompts/review.md` Step 1–3, `principles/anti-patterns.md` §1–3 |
+| 2 (circulation) | ✅ 2026-05-16 (both false-negative via autonomous agents and false-positive via sentence-coherence) | `prompts/review.md` Step 5, `principles/quality-check.md` |
+| 3 (causal) | ✅ 2026-05-16 (same test as Q2 false-positive: Actor-Arrow-Property sentence coherence) | `prompts/review.md` Step 5a |
+| 4 (integration) | partially via Q1 follow-ups | `principles/core.md` §6, `prompts/review.md` Step 4 |
 | 5 (innovation pattern) | pending | — |
 | 6 (layout) | pending | — |
 | 7 (granularity) | pending | — |
-| 8 (anti-patterns) | partially via Q1 follow-ups | `principles/anti-patterns.md` |
+| 8 (anti-patterns) | partially via Q1 follow-ups; expand as remaining Qs progress | `principles/anti-patterns.md` |
 | 9 (applicability) | covered by public material | `principles/core.md` §5 |
 | 10 (core / キモ) | pending | — |
+
+## Derivative insights (from interviewer's questions back to the originator)
+
+Mid-interview the originator asked a methodologically generative question:
+
+> 2026-05-16: 「こじつけストーリーと蓋然性のあるストーリーを AI 的に見分ける方法論はあるか？」
+
+The discussion produced the five plausibility-check techniques and the mille-feuille flow now codified in `principles/quality-check.md`. Future interviews may include this kind of **reverse-question** pattern, where the originator stress-tests AI implementability of their own methodology in real time.
