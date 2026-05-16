@@ -22,11 +22,12 @@ Background reading:
 - **`prompts/starter.md`** — Coaching prompts for when you're stuck starting a RIM diagram
 
 ### Principles (the methodology, distilled)
-- **`principles/core.md`** — Foundational principles + the RIM core working loop
+- **`principles/core.md`** — Foundational principles + the RIM core working loop + the decisive "inner revelation" success criterion (§15)
 - **`principles/variants.md`** — Tsuchiya RIM (mountain + canyon) vs Motomura inductive (negative-cycle); coexistence and choice
 - **`principles/negative-loop-response.md`** — Risk-management-style response patterns + Othello flip-search + canyon discovery
+- **`principles/granularity.md`** — Granularity = abstraction level for competitive differentiation; industry-peer-discrimination test, subdivision-trap, mixed-granularity diagnostics
 - **`principles/quality-check.md`** — Pattern recognition + 5 plausibility-check techniques + mille-feuille flow + expert-consultation discipline
-- **`principles/anti-patterns.md`** — Common failure modes (Business / UX / Systemic / Process / Loop-structure / AI-coaching meta)
+- **`principles/anti-patterns.md`** — Common failure modes (Business / UX / Systemic / Process / Loop-structure / AI-coaching meta / Practitioner mindset traps)
 
 ### Process documentation
 - **`interview/questions.md`** — The questions used to derive these principles, with status tracking and the interview discipline

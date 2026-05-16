@@ -185,11 +185,89 @@ The question: **"Is this premise from a single-perspective era, or does it hold 
 
 ---
 
+## 15. The "core (キモ)" of RIM — inner revelation (核心)
+
+**The single most decisive criterion for whether RIM is "working":**
+
+When the RIM model is drawn — its loop structures, its agent-human chains — the stakeholders viewing it experience an **inner revolution (脳内での革命)**. They think: **「あ、本当は我々はこれを目指してたんだ」** ("Ah, this is what we were truly aiming for").
+
+This is what Tsuchiya calls **the core (核心) of his structural design**.
+
+### Decomposition of "attractive (魅力的)"
+
+1. **Transmitted (伝わる)**: The model communicates to the stakeholder as language and visual structure.
+2. **Conviction (納得感)**: Not just understanding ("got it"), but a particular feeling — "not ordinary; we were aiming for this."
+3. **Inner revolution (脳内での革命)**: A reform-level mental shift where the stakeholder's view of "what we are doing" updates. In English: **"innovation has happened."**
+
+> "結局、描けたループ構造みたいなものや、描けたエージェントと人との連鎖構造みたいなものに、関係者が魅力的だと思うかどうか。... 『あ、本当は我々はこれを目指してたんだ』と思えるような脳内での革命、いわゆる英語で言うとイノベーションが起きたと思えるかどうかが、私はこの RIM であり、私の考える構造デザインの核心だと思ってます。"
+> — Akitsugu Tsuchiya, interview 2026-05-16
+
+### Why this section is decisive for AI-coached RIM
+
+This criterion is a **mental state in human stakeholders** — it cannot be judged by AI. AI's role is to **set up the conditions** for this revolution, by:
+
+- Surfacing structural concerns (Checks A–J in `prompts/review.md`)
+- Returning questions, never verdicts
+- Helping the human navigate the structural work
+- **Stepping aside completely** at the moment of revelation/leap
+
+This is the **ultimate grounding** for:
+- §9 (Hints, not answers — never judge abstraction)
+- §12 (Last-mile leap belongs to the human)
+- The entire OSS posture: AI supports the structural conditions, humans own the revelation.
+
+> The diagram's success criterion is not "is it well-formed" but "**does it produce the inner revelation in the stakeholders**" — and only humans can have that revelation.
+
+This is why rim-coach exists as **coaching prompts that nudge with questions**, not as a "validator" or "generator." A generator that produced a beautiful but non-revelatory diagram would have failed.
+
+---
+
+## 16. Granularity = abstraction level for competitive differentiation
+
+Granularity is **not** about node count. It is about **abstraction level**, specifically:
+
+> The ideal granularity is the **most abstract level at which the company's specific competitive characteristic (差別化された強み) is still expressed**.
+
+This is the **same dimension** as the essence judgment in §7. Granularity, abstraction level, and essence are three names for the same thing.
+
+> "適切な粒度っていうのは...ノード数ではなく私は抽象度の問題だと思っています。... 競合する他社との違い、うちの会社はここに強みを持ってるんだっていうものが表現されている範囲で、もっとも抽象的な状態...が私も書く上では理想だと思ってます。"
+> — Akitsugu Tsuchiya, interview 2026-05-16
+
+### Quick tests
+
+| Test | Sign of failure |
+|---|---|
+| **Too coarse — industry-peer-discrimination test** | At this abstraction, the same industry's competitors would have an indistinguishable RIM. Example: if 楽天市場 vs Amazon become indistinguishable, the diagram is no longer recognizably about *this* company. |
+| **Too fine — 細分化の罠 (subdivision trap)** | Humans appear only as 行動の連鎖 (behavior chains); systems appear only as 機能の羅列 (function enumerations), at worst UI-operation + behavior enumerations. |
+| **Mixed (hardest)** | An actor's "**property**" (属性) suddenly far from the actor's other properties; the actor-property decomposition fails the "ordinary person sanity check"; the actions between elements do not read as natural Japanese sentences. |
+
+See `principles/granularity.md` for the full Q7 treatment, including practical scaffolding patterns.
+
+---
+
+## 17. Applicability boundary — refined: intent-unification vs interpretation-divergence
+
+§5 (from public material) says "MVV-like values topics → use language not structure." This is correct but coarse. The refined criterion (from interview 2026-05-16):
+
+The applicability boundary is **not about subject matter** (MVV vs not). It is about **purpose**:
+
+| Purpose | Recommended tool |
+|---|---|
+| **意志統一 (alignment across viewers)** | **RIM (structural)** — including for MVV-like topics, if alignment is the goal |
+| **解釈発散 (preserving interpretive room for each viewer)** | Language |
+| **Design: aesthetic / look-and-feel / brand impression** | Language → connected to **意匠 (visual design)** directly |
+| **Design: operational rules (brand guidelines, etc.)** | Hierarchical structure (RIM-like is OK) |
+
+Structural design ≠ all of design. Brand identity (aesthetic) is better handled via language + direct visual coupling; brand guidelines (operational rules) benefit from hierarchical structure.
+
+> "意志の統一のためには RIM を使う。逆に余白を残し、それぞれの人の解釈可能性の発散みたいなことになる時には、言語の方が向いている。... ブランディングとかユーザーに与える印象、look and feel も含めたブランドデザインなのも、言語で扱いつつそれを意匠と直接接続するみたいな形のほうがいい。ただし、ブランドガイドラインみたいなものを作る時には、hierarchical な運用ルールなどを定義することは非常に重要。"
+> — Akitsugu Tsuchiya, interview 2026-05-16
+
+---
+
 ## More to come (interview in progress)
 
 Still pending:
 
-- "Positive → positive → negative" innovation pattern: more concrete examples and edge cases
-- Layout judgment (visual hierarchy, center-of-perspective transmission)
-- Granularity calibration (too coarse / too fine / mixed)
-- "Core (キモ)" presence judgment beyond what is in §3
+- **Q6 Layout judgment** (visual hierarchy, center-of-perspective transmission, tool selection, XY-coordinate aesthetics, loop-shape perceptibility) — Tsuchiya has stated this is the hardest question to elicit; deferred for a dedicated session
+- Minor transcription confirmations from interview 2026-05-16 (a few voice-input ambiguities to confirm with the originator)

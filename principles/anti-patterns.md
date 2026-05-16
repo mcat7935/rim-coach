@@ -103,3 +103,33 @@ If the structural work in the RIM loop (see `core.md` §10) does not reach the b
 
 ### 6c. AI returning verdicts instead of questions
 AI output that closes off thinking ("the right answer is X") violates the hint-not-answer discipline. All findings should be returned as questions or candidate concerns to the user.
+
+## 7. Practitioner mindset traps
+
+These are not diagram failures per se, but failure modes in how people *approach* RIM.
+
+### 7a. SE / logical-thinker paralysis (要素列挙詰まり)
+Logical / SE-style practitioners often **cannot get started** because they want to enumerate all elements first before drawing anything. The diagram never gets written; the practitioner spirals in element-listing.
+
+**Suggested response (per Tsuchiya, 2026-05-16)**: nudge them to **use AI as a conversation partner to surface elements interactively**. This is one of the core use cases for `prompts/starter.md`.
+
+> "システムエンジニア的な、逆にロジカルな人たちっていうのは、結構そもそも手が動かない、要素を洗い出し困っちゃう、みたいなところがある。ここはうまく背中を押せると、特に AI とのインタラクションから要素を洗い出して書くみたいなことができるといいかな。"
+> — Akitsugu Tsuchiya, interview 2026-05-16
+
+### 7b. Single-correct-form belief (唯一正解信仰) — "trauma-like" pattern
+The practitioner assumes there is a **unique correct way** to draw the RIM and becomes paralyzed by caution. Tsuchiya describes this as **trauma-like**.
+
+Reality:
+- **チーム内で伝わればいい** — what matters is whether the team understands the diagram
+- **複数の RIM variants が並立する** (`principles/variants.md`) — there is no single canonical form
+- The criterion is whether useful points are surfaced (Slack 2026-05-07), not whether the form matches a template
+
+**Suggested response**: in coaching prompts (`prompts/starter.md`), reassure the practitioner that multiple forms are fine. Discourage perfectionism at the early-draft stage.
+
+> "唯一の正解の書き方があるんじゃないかと思って慎重になってしまう、というパターンが失敗パターンとしてあると思います。要はチーム内で伝わればいいので、必ずしも書き方そのものに唯一の正解があるわけではないです。"
+> — Akitsugu Tsuchiya, interview 2026-05-16
+
+### 7c. "Why" missing in behavior chains
+A specific form of the subdivision trap (§5b detail, but worth naming as a mindset issue): the practitioner writes the behavior chain but does not express **why each step causes the next**. The diagram becomes a sequence list, not a structural model.
+
+Coaching nudge: 「この行動の次の行動を引き起こしている『なぜ』は何ですか？」

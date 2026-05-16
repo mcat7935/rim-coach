@@ -48,14 +48,21 @@ Example from interview 2026-05-16:
 | Question | Status | Reflected in |
 |---|---|---|
 | 1 (priority) + 1a/1b/1c | ✅ 2026-05-16 | `core.md` §6–9, `anti-patterns.md` §1–3, `review.md` Checks B/C/D |
-| 2 (circulation) | ✅ 2026-05-16 (both false-negative via autonomous agents and false-positive via sentence-coherence) | `review.md` Check G, `quality-check.md`, `anti-patterns.md` §5c/5d |
+| 2 (circulation) | ✅ 2026-05-16 (false-negative via autonomous agents, false-positive via sentence-coherence) | `review.md` Check G, `quality-check.md`, `anti-patterns.md` §5c/5d |
 | 3 (causal) | ✅ 2026-05-16 (same test as Q2 false-positive) | `review.md` Check G-a |
-| 4 + 5 (integration + innovation pattern) | ✅ 2026-05-16 — Q4 and Q5 unified as one topic: mountain-range + canyon + variants + negative-loop response. Includes Tsuchiya RIM, Motomura variant, era criterion, Othello-endgame anti-pattern, all-positive anti-pattern, partial-knowledge accommodation, last-mile leap as human's territory | `core.md` §10–14, `variants.md`, `negative-loop-response.md`, `quality-check.md`, `anti-patterns.md` §4–5, `review.md` Checks A/E/F/H/I |
-| 6 (layout) | pending | — |
-| 7 (granularity) | pending | — |
-| 8 (anti-patterns) | substantial via Q1/Q2/Q4–5 follow-ups; expand as remaining Qs progress | `anti-patterns.md` |
-| 9 (applicability) | covered by public material | `core.md` §5 |
-| 10 (core / キモ) | pending | — |
+| 4 + 5 (integration + innovation pattern) | ✅ 2026-05-16 — unified topic: mountain-range + canyon + variants + negative-loop response. Includes Tsuchiya RIM, Motomura variant, era criterion, Othello-endgame anti-pattern, all-positive anti-pattern, partial-knowledge accommodation, last-mile leap as human's territory | `core.md` §10–14, `variants.md`, `negative-loop-response.md`, `quality-check.md`, `anti-patterns.md` §4–5, `review.md` Checks A/E/F/H/I |
+| 6 (layout) | **deferred to dedicated session** (Tsuchiya identified Q6 as the hardest — involves tool selection, XY-coordinate aesthetic judgment, loop-shape perceptibility, multiple human-sense decisions) | — (pending Q6 session) |
+| 7 (granularity, a/b/c/d + scaffolding) | ✅ 2026-05-16 (first-pass / 一次回答) — granularity = abstraction level for competitive differentiation; industry-peer-discrimination test (楽天 vs Amazon), subdivision-trap (細分化の罠), actor coherence + NL naturalness for mixed; scaffolding patterns (UX/Business/AIDMA) | `core.md` §16, `granularity.md`, `review.md` Check K |
+| 8 (anti-patterns) | ✅ 2026-05-16 (first-pass) — 3 named patterns: behavior chains without causation, SE/logical paralysis (要素列挙詰まり), single-correct-form belief (唯一正解信仰) | `anti-patterns.md` §7 (mindset traps), `starter.md` |
+| 9 (applicability) refined | ✅ 2026-05-16 — refined from public-material baseline: criterion is purpose (意志統一 vs 解釈発散), not subject matter; design domain further split (aesthetic via language+意匠, operational rules OK with hierarchical structure) | `core.md` §17, `review.md` Check L |
+| 10 (core / キモ) | ✅ 2026-05-16 — the **decisive** answer of the entire interview: success = inner revelation in stakeholders ("あ、本当は我々はこれを目指してたんだ" = 脳内革命 = English-sense innovation); cannot be judged by AI; this is the **ultimate ground** for all AI-coaching disciplines | `core.md` §15 (decisive top), `review.md` ultimate goal section |
+
+## Outstanding minor items (transcription confirmations)
+
+A few voice-input words from the 2026-05-16 interview have ambiguous Japanese transcriptions to confirm with the originator before final publication:
+
+- **「ミンシン」** (Q7-d about actor decomposition): likely 「ちゃんと」 / 「明確に」 / 「綺麗に」 — TBD
+- **「核のシーン」** (Q10 about the kind of revolution): likely 「過激なシーン」 or 「革命的なシーン」 — TBD
 
 ## Derivative insights (from interviewer's questions back to the originator)
 
