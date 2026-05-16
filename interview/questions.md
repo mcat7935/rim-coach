@@ -61,8 +61,20 @@ Example from interview 2026-05-16:
 
 A few voice-input words from the 2026-05-16 interview have ambiguous Japanese transcriptions to confirm with the originator before final publication:
 
-- **「ミンシン」** (Q7-d about actor decomposition): likely 「ちゃんと」 / 「明確に」 / 「綺麗に」 — TBD
-- **「核のシーン」** (Q10 about the kind of revolution): likely 「過激なシーン」 or 「革命的なシーン」 — TBD
+- ~~**「ミンシン」** (Q7-d about actor decomposition)~~ → confirmed as **MECE** (Mutually Exclusive, Collectively Exhaustive), 2026-05-16. Reflected in `core.md` §16, `granularity.md` Layer A, `review.md` Check K-c.
+- ~~**「核のシーン」** (Q10 about the kind of revolution)~~ → confirmed as **革命のシーン** (a literal social/political revolution scene — voice mis-recognition of 革 as 核), 2026-05-16. Refined to: "not a wholesale revolution, but a reform-meaning revolution" in `core.md` §15.
+
+## Bonus: the Kakushin trilingual aphorism
+
+In a meta-observation on the kimo discussion (2026-05-16), the originator offered:
+
+> **RIM の 核心 とは、それを見た関係者が 革新 性と 確信 を得られることにある。**
+
+A linguistic gem: the three central concepts (**core / innovation / conviction**) are all homophones in Japanese (*kakushin*). This is now the epigraph of `core.md` §15.
+
+Felt-experience description (same conversation):
+
+> **自社のビジネスが一歩前に、認知の面で進んだ感** — close to an *aha experience*.
 
 ## Derivative insights (from interviewer's questions back to the originator)
 

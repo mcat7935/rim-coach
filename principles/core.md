@@ -187,17 +187,21 @@ The question: **"Is this premise from a single-perspective era, or does it hold 
 
 ## 15. The "core (キモ)" of RIM — inner revelation (核心)
 
+> **RIM の 核心 とは、それを見た関係者が 革新 性と 確信 を得られることにある。**
+> *(Three Japanese homophones: 核心 / 革新 / 確信 — all read* kakushin *)*
+> — Akitsugu Tsuchiya, interview 2026-05-16
+
 **The single most decisive criterion for whether RIM is "working":**
 
-When the RIM model is drawn — its loop structures, its agent-human chains — the stakeholders viewing it experience an **inner revolution (脳内での革命)**. They think: **「あ、本当は我々はこれを目指してたんだ」** ("Ah, this is what we were truly aiming for").
+When the RIM model is drawn — its loop structures, its agent-human chains — the stakeholders viewing it experience an **inner revolution (脳内での革命)**. They think: **「あ、本当は我々はこれを目指してたんだ」** ("Ah, this is what we were truly aiming for"). Tsuchiya describes the felt experience as: **「自社のビジネスが一歩前に、認知の面で進んだ感」** ("a sense that one's own business has advanced one step forward, on the cognitive plane") — close in spirit to an *aha experience*.
 
 This is what Tsuchiya calls **the core (核心) of his structural design**.
 
 ### Decomposition of "attractive (魅力的)"
 
 1. **Transmitted (伝わる)**: The model communicates to the stakeholder as language and visual structure.
-2. **Conviction (納得感)**: Not just understanding ("got it"), but a particular feeling — "not ordinary; we were aiming for this."
-3. **Inner revolution (脳内での革命)**: A reform-level mental shift where the stakeholder's view of "what we are doing" updates. In English: **"innovation has happened."**
+2. **Conviction (納得感 / 確信)**: Not just understanding ("got it"), but a particular feeling — "not ordinary; we were aiming for this."
+3. **Inner revolution (脳内での革命 / 革新)**: A reform-level mental shift — **not** a wholesale-overturn revolution (革命のシーン), but a **reform-meaning revolution** where the stakeholder's view of "what we are doing" updates. In English: **"innovation has happened."**
 
 > "結局、描けたループ構造みたいなものや、描けたエージェントと人との連鎖構造みたいなものに、関係者が魅力的だと思うかどうか。... 『あ、本当は我々はこれを目指してたんだ』と思えるような脳内での革命、いわゆる英語で言うとイノベーションが起きたと思えるかどうかが、私はこの RIM であり、私の考える構造デザインの核心だと思ってます。"
 > — Akitsugu Tsuchiya, interview 2026-05-16
@@ -239,7 +243,7 @@ This is the **same dimension** as the essence judgment in §7. Granularity, abst
 |---|---|
 | **Too coarse — industry-peer-discrimination test** | At this abstraction, the same industry's competitors would have an indistinguishable RIM. Example: if 楽天市場 vs Amazon become indistinguishable, the diagram is no longer recognizably about *this* company. |
 | **Too fine — 細分化の罠 (subdivision trap)** | Humans appear only as 行動の連鎖 (behavior chains); systems appear only as 機能の羅列 (function enumerations), at worst UI-operation + behavior enumerations. |
-| **Mixed (hardest)** | An actor's "**property**" (属性) suddenly far from the actor's other properties; the actor-property decomposition fails the "ordinary person sanity check"; the actions between elements do not read as natural Japanese sentences. |
+| **Mixed (hardest)** | The actor decomposition is not **MECE** (Mutually Exclusive, Collectively Exhaustive) at an appropriate abstraction; a "**property**" (属性) suddenly appears far from the actor's other properties; the actions between elements do not read as natural Japanese sentences. |
 
 See `principles/granularity.md` for the full Q7 treatment, including practical scaffolding patterns.
 

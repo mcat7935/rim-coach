@@ -57,11 +57,16 @@ This connects directly to the essence judgment (`core.md` §7): "essence" = abst
 
 For mixed granularity (different abstraction levels within the same diagram), Tsuchiya's approach has three layers:
 
-### Layer A: Actor (cast of characters) coherence
+### Layer A: Actor (cast of characters) MECE coherence
 
-First, check whether the **actors / dramatis personae** are decomposed at an abstraction level that an **ordinary person** would say "yeah, this decomposition makes sense" (an everyday sanity test).
+First, check whether the **actors / dramatis personae** are decomposed **MECE-ly** (Mutually Exclusive, Collectively Exhaustive) at an appropriate abstraction level:
 
-It is **not required** that all layers be at exactly the same abstraction (some inconsistency is fine).
+- **Mutually Exclusive**: no overlapping actors at the same level (the same person/role shouldn't appear under two distinct categories at this level)
+- **Collectively Exhaustive**: no missing actors that are clearly relevant to the value chain at this level
+
+This is the foundational test for actor decomposition. An ordinary person, looking at the actor list, should be able to say "this set is non-overlapping and covers the relevant cast."
+
+It is **not required** that all layers be at exactly the same abstraction (some inconsistency is fine), but the **actor-level decomposition itself** should be MECE within that level.
 
 ### Layer B: Property-actor coupling
 

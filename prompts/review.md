@@ -201,7 +201,7 @@ Granularity is **abstraction level**, not node count. The ideal: the **most abst
 - 「もし偏っているなら、これらの根底にある共通の特徴は何ですか？ 抽象度を一段上げてみてください。」
 
 **K-c. Mixed-granularity detection**
-- 「登場人物（actors）の分解は、一般人が見て『この分解は妥当』と思えるレベルで揃っていますか？」
+- 「登場人物（actors）の分解は **MECE**（Mutually Exclusive, Collectively Exhaustive）になっていますか？ 同じ抽象度で、重複なく・抜けなく分解できていますか？」
 - 「あるアクターのプロパティ（属性）とかけ離れたノードが、突然出てきていませんか？」
 - 「要素と要素間の作用が、日本語として読んで自然ですか？」
 
