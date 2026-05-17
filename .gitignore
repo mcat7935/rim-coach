@@ -17,3 +17,6 @@ desktop.ini
 # Sensitive (defense-in-depth)
 *.env
 secrets/
+
+# Reference inputs (local-only, not for redistribution)
+Input/
