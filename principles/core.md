@@ -2,6 +2,18 @@
 
 These principles are distilled from publicly available material and ongoing interviews with the methodology originator (Akitsugu Tsuchiya / Flying Penguins) and contributors (Akira Motomura).
 
+## Canonical sources (公用語の所在)
+
+Where to look for the canonical Japanese terminology, by layer:
+
+| Layer | Canonical source | Notes |
+|---|---|---|
+| **UX** | `principles/core.md` §8 — 3フェーズ整理（利用前 / 利用中 / 利用後想起） | This file is authoritative for UX-layer naming. |
+| **Business** — constituents, cycle naming, decomposition | `curriculum/lecture_outline_v0.1.md` | Do **not** re-define business constituents in `core.md`. Reference `lecture_outline` instead. |
+| **Systemic** — constituents, sub-layer decomposition, cycle naming | `curriculum/lecture_outline_v0.1.md` | Same policy as Business. `core.md` §6 and §20 contain summary references but the authoritative naming lives in `lecture_outline`. |
+
+When a conflict arises, `lecture_outline_v0.1.md` wins for Business/Systemic, and this file (`core.md` §8) wins for UX. (Set 2026-05-17.)
+
 ---
 
 ## 1. Structure has circulation (循環)
@@ -64,15 +76,19 @@ When checking whether the author grasps the essence (especially at the Business 
 > "もっとも特徴を表していて、かつ抽象的なことを言えてる人が本質的だと思っています。それに対してユーザーの行動とかシステムの挙動みたいなものをつらつらしゃべっている場合には、それはあまり本質的ではない。"
 > — Akitsugu Tsuchiya, interview 2026-05-16
 
-## 8. UX is the full psychological journey, not just UI
+## 8. UX is the full psychological journey, not just UI — the 3-Phase framing (3フェーズ整理)
 
-Most diagrams limit UX to "the moment of use" (UI / app interaction). RIM expects three regions to all be present:
+Most diagrams limit UX to "the moment of use" (UI / app interaction). RIM expects all three phases of the UX journey to be present. This framing is named **3フェーズ整理 (3-Phase framing)** and is the canonical Japanese terminology for the UX layer.
 
-- **Pre-use**: how the user's psychological state changes leading up to use
-- **During-use**: UI experience (the usual scope)
-- **Post-use**: how the user *recalls* and returns to the service
+| Phase (canonical JA) | English gloss | What this phase captures |
+|---|---|---|
+| **利用前** | Pre-use | How the user's psychological state changes leading up to use (期待・欲求・不安 などの立ち上がり) |
+| **利用中** | During-use | UI experience — the usual scope (期待の充足／裏切り) |
+| **利用後想起** | Post-use recall | How the user *recalls* the service and returns to it (信頼・記憶・想起確率) |
 
-A diagram that captures only during-use is treating UX as fixed background rather than as a journey.
+A diagram that captures only 利用中 is treating UX as fixed background rather than as a journey. The 利用後想起 phase is the one most commonly missing, and it is the phase that explains *why a service is re-used*.
+
+**Canonical terminology rule (2026-05-17)**: Within RIM materials, use **利用前 / 利用中 / 利用後想起** as the phase names, and **3フェーズ整理** as the framework name. Lecture-specific glosses (e.g., 「利用後（次回利用想起）」) are acceptable for accessibility but the canonical short form is **利用後想起**.
 
 > "私はその利用後どうやって次思い出すか、や、その利用までに人間の心理状態でどういう変化が起きたかみたいなことを気にしながら UX を描くので、私自身はそういうものも含めてすべて UX だと思ってる。"
 > — Akitsugu Tsuchiya, interview 2026-05-16
