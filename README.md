@@ -81,6 +81,24 @@ Example:
 Here is my RIM diagram: <description, image, or Miro board URL>
 ```
 
+### Codex skill adapter
+
+This repository can also be used as a shared knowledge base from Codex without changing the repository structure.
+
+Use the adapter template in [`integrations/codex/rim-coach/`](./integrations/codex/rim-coach/):
+
+1. Copy `integrations/codex/rim-coach/` into your Codex skills directory as `rim-coach`.
+2. Edit the `Knowledge base` path in `SKILL.md` so it points to your local clone of this repository.
+3. Invoke it from Codex with `$rim-coach`.
+
+Example Codex prompt:
+
+```text
+Use $rim-coach to review this RIM diagram and return hints, not answers.
+```
+
+The adapter is intentionally thin: the canonical RIM knowledge remains in `principles/`, `prompts/`, `curriculum/`, and `interview/`.
+
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md). No client-confidential material; anonymize before sharing.

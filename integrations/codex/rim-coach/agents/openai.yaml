@@ -1,0 +1,4 @@
+interface:
+  display_name: "RIM Coach"
+  short_description: "RIM diagram review and coaching."
+  default_prompt: "Use $rim-coach to review this RIM diagram and return hints, not answers."
