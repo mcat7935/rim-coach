@@ -318,15 +318,19 @@ Per the official RIM PDF (2026-03 release), RIM operates in three phases:
 
 For full treatment: `principles/three-stages.md`.
 
-## 20. Official 3-layer naming (canonicalized 2026-05-16)
+## 20. Official 3-layer naming (canonicalized 2026-05-16, refined 2026-05-19)
 
 | Layer | English | Japanese | Cycle |
 |---|---|---|---|
-| 1 | UX | UX / 体験 | UX Satisfaction Cycle |
-| 2 | Business | Business / 事業 | Business Growth Cycle |
-| 3 | **Systemic** | システミック | **Self(-Organization) Growth Cycle** ✱ |
+| 1 | UX | UX / 体験 | **UX Satisfaction Improvement Cycle** (UX 満足向上循環) ✱✱ |
+| 2 | Business | Business / 事業 | **Business Growth Cycle** (Business 成長循環) |
+| 3 | **Systemic** | システミック | **Self(-Organization) Reinforcement Cycle** (自己強化循環) ✱ |
 
-✱ Naming update from legacy "Product Evolution Cycle" → "Self(-Organization) Growth Cycle" reflects modern reality where systemic-layer growth subject is the **organization itself** (人 + システム + AI エージェントの連鎖), per Tsuchiya 2026-05-16.
+✱ Naming evolution (Systemic): legacy "Product Evolution Cycle" → "Self(-Organization) Growth Cycle" (2026-05-16) → **"Self(-Organization) Reinforcement Cycle"** (2026-05-19, set canonical via `curriculum/lecture_outline_v0.1.md`). **「強化 (Reinforcement)」** emphasizes active self-strengthening of the organization (人 + システム + AI エージェントの連鎖), beyond passive growth.
+
+✱✱ Naming refinement (UX, 2026-05-19): **"UX Satisfaction Cycle" → "UX Satisfaction Improvement Cycle"** (満足循環 → 満足向上循環). UX satisfaction is not a static state to be sustained but a property to be actively elevated; the cycle name now reflects directionality (向上 / improvement) rather than mere recurrence.
+
+Per the canonical source notice in `curriculum/lecture_outline_v0.1.md`: Business / Systemic naming is authoritative in `lecture_outline`; UX naming is authoritative here in §8 and this §20.
 
 Notation, layer-exchange structure, and modeling procedures: see `principles/notation.md`.
 

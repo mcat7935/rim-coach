@@ -76,11 +76,15 @@ Per `RIM記述ルール定義.pptx` Step ④, two procedures exist:
 
 | Layer | English | Japanese | Value Cycle name |
 |---|---|---|---|
-| 1 | UX | UX / 体験 | **UX Satisfaction Cycle** (UX 満足循環) |
+| 1 | UX | UX / 体験 | **UX Satisfaction Improvement Cycle** (UX 満足向上循環) ✱✱ |
 | 2 | Business | Business / 事業 | **Business Growth Cycle** (Business 成長循環) |
-| 3 | **Systemic** | Systemic / システミック | **Self(-Organization) Growth Cycle** (自己／自組織成長循環) ✱ |
+| 3 | **Systemic** | Systemic / システミック | **Self(-Organization) Reinforcement Cycle** (自己強化循環) ✱ |
 
-✱ Naming update note (Tsuchiya 2026-05-16): The legacy term in `RIM記述ルール定義.pptx` is **"Product Evolution Cycle"**. The updated name **"Self(-Organization) Growth Cycle"** more accurately reflects that the systemic layer's growth subject in the modern era is the *organization itself* (人 + システム + AI エージェントの連鎖). Both names refer to the same cycle.
+✱ Naming evolution (Systemic): legacy "Product Evolution Cycle" (from `RIM記述ルール定義.pptx`) → "Self(-Organization) Growth Cycle" (2026-05-16) → **"Self(-Organization) Reinforcement Cycle"** (2026-05-19). **「強化 (Reinforcement)」** emphasizes active self-strengthening of the organization (人 + システム + AI エージェントの連鎖), beyond passive growth.
+
+✱✱ Naming refinement (UX, 2026-05-19): **"UX Satisfaction Cycle" → "UX Satisfaction Improvement Cycle"** (満足循環 → 満足向上循環). UX satisfaction is a property to be actively elevated, not merely sustained; the cycle name now carries directionality (向上 / improvement).
+
+See `principles/core.md` §20 for the authoritative table and naming history.
 
 ---
 
