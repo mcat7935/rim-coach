@@ -4,15 +4,19 @@ These principles are distilled from publicly available material and ongoing inte
 
 ## Canonical sources (公用語の所在)
 
-Where to look for the canonical Japanese terminology, by layer:
+The canonical knowledge taxonomy for RIM is `curriculum/knowledge_tree.md` — it holds the authoritative Japanese/English naming, ID system, and concept hierarchy for the entire body of knowledge.
+
+Layer-level pointers:
 
 | Layer | Canonical source | Notes |
 |---|---|---|
-| **UX** | `principles/core.md` §8 — 3フェーズ整理（利用前 / 利用中 / 利用後想起） | This file is authoritative for UX-layer naming. |
-| **Business** — constituents, cycle naming, decomposition | `curriculum/lecture_outline_v0.1.md` | Do **not** re-define business constituents in `core.md`. Reference `lecture_outline` instead. |
-| **Systemic** — constituents, sub-layer decomposition, cycle naming | `curriculum/lecture_outline_v0.1.md` | Same policy as Business. `core.md` §6 and §20 contain summary references but the authoritative naming lives in `lecture_outline`. |
+| **All concepts (overall taxonomy + naming)** | `curriculum/knowledge_tree.md` | Authoritative for terminology and ID assignment across all 12 K.* domains. |
+| **UX cycle naming + 3フェーズ整理** | `curriculum/knowledge_tree.md` (K.PER.UX) ; theoretical detail in `principles/core.md` §8 | UX naming originates in the tree; §8 holds the detailed justification and references. |
+| **Business / Systemic naming + decomposition** | `curriculum/knowledge_tree.md` (K.PER.BIZ, K.PER.SYS) | Do **not** re-define business or systemic constituents in `core.md`. Reference the tree instead. |
 
-When a conflict arises, `lecture_outline_v0.1.md` wins for Business/Systemic, and this file (`core.md` §8) wins for UX. (Set 2026-05-17.)
+When a conflict arises: **`knowledge_tree.md` > `principles/*.md` > `curriculum/programs/*.md`**.
+
+History: Earlier (2026-05-17) this notice pointed to `curriculum/lecture_outline_v0.1.md` for Business/Systemic. As of 2026-05-19, `lecture_outline_v0.1.md` has been split into `knowledge_tree.md` (taxonomy) + `programs/full_course_21h.md` (training program), and the canonical role moves to `knowledge_tree.md`.
 
 ---
 
