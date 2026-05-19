@@ -88,17 +88,22 @@ See `principles/core.md` §20 for the authoritative table and naming history.
 
 ---
 
-## Three-layer exchange structure (三層交換構造)
+## Three-layer exchange structure (三層交換構造) — DEPRECATED 2026-05-19
 
-Per `RIMコンテンツや研究テーマアイデア.pdf`:
+> ⚠️ **Deprecated as of v1.3 of `curriculum/knowledge_tree.md` (2026-05-19)**:
+> The Market / Service / Organization three-layer exchange structure has been **retired**.
+> Reasoning: With the integration of AI agents, the boundary between "Product / system thinking" (Service layer) and "Organization thinking" (Organization layer) has dissolved into the **Self(-Organization) Reinforcement Cycle** (`K.PER.SYS.Cycle`). All previously-distinguished 3-layer frameworks (Market/Service/Organization, 事業/プロダクト/組織, BDT, DVF, etc.) are now consolidated into the canonical **K.PER 3-perspective framework** (UX × Business × Systemic), which loosely corresponds to the **3C view** (Customer / Competitor / Company).
+> Historical reference retained below.
 
-| Layer | Exchange essence |
-|---|---|
-| **Market** | Value ⇄ Revenue / Trust / Brand / Share |
-| **Service** | Information ⇄ Resources (time, money, attention, action) |
-| **Organization** | Roles / responsibilities ⇄ Compensation / evaluation / dependency |
+~~Per `RIMコンテンツや研究テーマアイデア.pdf`:~~
 
-These map to the three layers but emphasize the *exchange* — what flows between actors at each level.
+~~| Layer | Exchange essence |~~
+~~|---|---|~~
+~~| **Market** | Value ⇄ Revenue / Trust / Brand / Share |~~
+~~| **Service** | Information ⇄ Resources (time, money, attention, action) |~~
+~~| **Organization** | Roles / responsibilities ⇄ Compensation / evaluation / dependency |~~
+
+~~These map to the three layers but emphasize the *exchange* — what flows between actors at each level.~~
 
 ---
 
