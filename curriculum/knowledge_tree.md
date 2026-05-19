@@ -1,9 +1,10 @@
-# RIM 全知識体系ツリー (v1.0)
+# RIM 全知識体系ツリー (v1.1)
 
 > **Canonical source notice (2026-05-19)**
-> このファイルは、**RIM 知識体系全体に関する公用語の正典 (canonical source)** です。用語・命名・概念分類の最終決定はこのツリーに従います。
-> 詳細な定義・引用・理論的議論は `principles/*.md` を参照。研修プログラム設計は `curriculum/programs/*.md` を参照。
-> 用語衝突が起きた場合: **このファイル > `principles/*.md` > `curriculum/programs/*.md`**
+> このファイルは、**RIM 知識体系全体に関する正典 (canonical source)** です。用語・命名・概念分類の最終決定はこのツリーに従います。**ノウハウの集約先**もここ — 各 K.* ノードに本文を蓄積していく方針 (2026-05-19 〜)。
+> 理論的議論・引用・出典は `principles/*.md` に残す (理論バックエンド)。
+> 過去の研修プログラム草案は `curriculum/drafts/` にアーカイブ済み (現在凍結)。
+> 用語衝突が起きた場合: **このファイル > `principles/*.md`** が優先。
 
 ---
 
@@ -11,8 +12,8 @@
 
 - 各ノードは **安定 ID** を持つ (例: `K.PER.UX.Cycle`)
 - `K` = Knowledge プレフィクス、続く 2-3 階層は意味略号
-- 研修プログラム (`programs/*.md`) はこの ID を**参照**し、知識を再定義しない
-- 1 ノード = 1 行サマリ + `principles/*.md` への参照
+- 1 ノード = 本文 (定義 + 例 + 教え方の勘所) + `principles/*.md` への参照
+- 現状 (v1.1) はまだサマリ中心。各ドメインを段階的に肉付け中
 
 ### 領域略号 (12 ドメイン)
 
@@ -30,6 +31,94 @@
 | **K.ANT** | Anti-patterns — アンチパターン | anti-patterns.md |
 | **K.AIC** | AI Collaboration — AI 協働の規律 | core.md §9, §12, §15 |
 | **K.PSY** | Psychology — ユーザー心理プロパティ | (新規) |
+
+---
+
+## 体系図 (Map of the Tree)
+
+ノード詳細に入る前の俯瞰図。**A**: 何がどこにあるか (階層)、**B**: ドメイン間がどう繋がるか (関係)。
+
+### A. 階層タクソノミ図
+
+```
+RIM Knowledge Tree (12 ドメイン)
+│
+├── K.MOT  動機・世界観  ............ なぜ構造で考えるのか
+│   ├── Structure / Cycle / Kakushin (本質トリオ)
+│   └── MMA / Era / Uber (時代論トリオ)
+│
+├── K.THE  理論的系譜  .............. Simon → Krippendorff → DesEnable → SecondOrder
+│
+├── K.NOT  表記法・3 要素  .......... Actor / Property / Arc
+│   ├── Property [Driver / Result]
+│   ├── 記法: SHave / SVO / PropVsAction
+│   ├── 手順: Standard / Simple
+│   └── NG: WrongNode / TooFree / Bloat
+│
+├── K.PER  3 視点と Value Cycle  .... UX / Business / Systemic
+│   ├── UX  [Cycle (満足向上) / Phases (利用前・中・後想起) / Design]
+│   ├── BIZ [Cycle (成長) / Phases (調達・選定・使い方) / Design]
+│   ├── SYS [Cycle (強化) / Human / IT / AI / Design]
+│   └── 共通: Crit (批判的考察) / Exchange (三層交換構造)
+│
+├── K.STG  3 ステージ  .............. RsIM → SDIM → BSM
+│   ├── Overview / StanceBase (派手さと姿勢のベース)
+│   ├── RsIM [Stance×4 (蓋然性/視点切替/統合/漸近) / CoreLoop / AnyStart]
+│   ├── SDIM [Phenomenon / Wall / Kakushin / Analogy / Inclusive / LastMile / FourTraditions]
+│   └── BSM  [Purpose / 5Elements / LLMAffinity / Scope]
+│
+├── K.QLY  品質  .................... 粒度・蓋然性・ミルフィーユ
+│   ├── Granularity [Ideal / PeerTest / SubdivisionTrap / MECE / Mixed]
+│   ├── Plausibility [FiveTechniques]
+│   ├── MilleFeuille (AI ↔ 人間)
+│   └── Expert (相談規律)
+│
+├── K.LAY  レイアウト  .............. XY / LoopVisibility / Shape / Density / Symmetry / Tool / ArrowSemantics
+│
+├── K.VAR  変形・流派  .............. 山脈・峡谷 + 2 流派
+│   ├── Mountain / Canyon / Innovation
+│   └── Schools: Tsuchiya / Motomura / Coexist
+│
+├── K.APP  適用境界  ................ Alignment / Divergence / Brand / Guidelines / MVVRefined
+│
+├── K.ANT  アンチパターン  .......... Business / UX / Systemic / Process / Loop / AI / Mindset
+│
+├── K.AIC  AI 協働の規律  ........... Hints / LastMile / RevelationCondition / MilleFeuille / CoachNotGen
+│
+└── K.PSY  心理プロパティ  .......... (K.PER.UX.Design の深掘り)
+    ├── PropType [Expectation / Anxiety / Fulfillment / Recall]
+    ├── Prop [Drv / Res / Pattern]
+    ├── Theory [Potential / Drive]
+    └── Discovery [FourQ / AntiBehavior]
+```
+
+### B. ドメイン関係図
+
+```
+                                            ┌─ K.APP (どこに使うかの境界判定)
+                                            │
+[K.MOT] ──導入→ [K.NOT] ──→ [K.PER] ──→ [K.STG]
+動機              表記         3 視点         3 ステージ
+                    │             │              │
+                    │             │      RsIM (姿勢) ─支える→ SDIM (飛躍) ─→ BSM (伝達)
+                    │             │              │
+                    │     [K.PSY] ←深掘り← K.PER.UX.Design
+                    │       (心理プロパティ)
+                    │
+                    ├─ [K.LAY] 図の可視化
+                    └─ [K.VAR] 山脈・峡谷 (応用形)
+
+横断する規律 (任意ノードに作用):
+  [K.QLY]  品質チェック (粒度・蓋然性・ミルフィーユ)
+  [K.AIC]  AI 協働 (ヒント / ラストワンマイル / 核心条件)
+  [K.ANT]  失敗モードの反例
+  [K.THE]  理論的バックエンド (なぜ正しいか)
+```
+
+**読み方のコツ**:
+- **左→右の主軸**: 動機 (なぜ) → 表記 (どう書く) → 視点 (何で見る) → ステージ (どう進める)
+- **下方向の深掘り**: K.PER.UX.Design → K.PSY (心理) のように、上位概念の実装詳細が下位に展開
+- **横断ドメイン**: K.QLY / K.AIC / K.ANT / K.THE は特定の流れを持たず、任意のノードに当たる規律・反例・理論
 
 ---
 

@@ -14,9 +14,12 @@ Layer-level pointers:
 | **UX cycle naming + 3フェーズ整理** | `curriculum/knowledge_tree.md` (K.PER.UX) ; theoretical detail in `principles/core.md` §8 | UX naming originates in the tree; §8 holds the detailed justification and references. |
 | **Business / Systemic naming + decomposition** | `curriculum/knowledge_tree.md` (K.PER.BIZ, K.PER.SYS) | Do **not** re-define business or systemic constituents in `core.md`. Reference the tree instead. |
 
-When a conflict arises: **`knowledge_tree.md` > `principles/*.md` > `curriculum/programs/*.md`**.
+When a conflict arises: **`knowledge_tree.md` > `principles/*.md`**.
 
-History: Earlier (2026-05-17) this notice pointed to `curriculum/lecture_outline_v0.1.md` for Business/Systemic. As of 2026-05-19, `lecture_outline_v0.1.md` has been split into `knowledge_tree.md` (taxonomy) + `programs/full_course_21h.md` (training program), and the canonical role moves to `knowledge_tree.md`.
+History:
+- 2026-05-17: Notice pointed to `curriculum/lecture_outline_v0.1.md` for Business/Systemic.
+- 2026-05-19 (early): `lecture_outline_v0.1.md` split into `knowledge_tree.md` (taxonomy) + `programs/full_course_21h.md` (training program); canonical role moved to `knowledge_tree.md`.
+- 2026-05-19 (later): Training-program development paused; previous programs moved to `curriculum/drafts/` (frozen). Knowledge consolidation now happens entirely inside `knowledge_tree.md` (the Base file).
 
 ---
 
@@ -330,11 +333,11 @@ For full treatment: `principles/three-stages.md`.
 | 2 | Business | Business / 事業 | **Business Growth Cycle** (Business 成長循環) |
 | 3 | **Systemic** | システミック | **Self(-Organization) Reinforcement Cycle** (自己強化循環) ✱ |
 
-✱ Naming evolution (Systemic): legacy "Product Evolution Cycle" → "Self(-Organization) Growth Cycle" (2026-05-16) → **"Self(-Organization) Reinforcement Cycle"** (2026-05-19, set canonical via `curriculum/lecture_outline_v0.1.md`). **「強化 (Reinforcement)」** emphasizes active self-strengthening of the organization (人 + システム + AI エージェントの連鎖), beyond passive growth.
+✱ Naming evolution (Systemic): legacy "Product Evolution Cycle" → "Self(-Organization) Growth Cycle" (2026-05-16) → **"Self(-Organization) Reinforcement Cycle"** (2026-05-19, set canonical via `curriculum/knowledge_tree.md` K.PER.SYS.Cycle). **「強化 (Reinforcement)」** emphasizes active self-strengthening of the organization (人 + システム + AI エージェントの連鎖), beyond passive growth.
 
 ✱✱ Naming refinement (UX, 2026-05-19): **"UX Satisfaction Cycle" → "UX Satisfaction Improvement Cycle"** (満足循環 → 満足向上循環). UX satisfaction is not a static state to be sustained but a property to be actively elevated; the cycle name now reflects directionality (向上 / improvement) rather than mere recurrence.
 
-Per the canonical source notice in `curriculum/lecture_outline_v0.1.md`: Business / Systemic naming is authoritative in `lecture_outline`; UX naming is authoritative here in §8 and this §20.
+Per the canonical source notice in `curriculum/knowledge_tree.md`: all 3-layer naming is now consolidated in the knowledge tree (`K.PER.UX.Cycle` / `K.PER.BIZ.Cycle` / `K.PER.SYS.Cycle`). This §20 and §8 hold the theoretical justification and citation references for UX naming; the tree is authoritative for the names themselves.
 
 Notation, layer-exchange structure, and modeling procedures: see `principles/notation.md`.
 
